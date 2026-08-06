@@ -1,0 +1,23 @@
+# CUPIEL Perfumes Website - Robots.txt
+# Allows search engines to crawl public pages
+
+User-agent: *
+Allow: /
+Allow: /collections/
+Allow: /products/
+Allow: /about/
+Allow: /services/
+Allow: /help/
+
+# Disallow crawling of admin and private sections (if applicable)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+
+# Sitemap location
+Sitemap: https://cupielperfumes.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
